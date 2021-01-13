@@ -10,8 +10,8 @@ npm install
 
 ### run
 
-terminal
+to run VendorPortal_AutomationTest
 
 ```
-npm test
+npm run VendorPortal_AutomationTest
 ```
