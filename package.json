@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "VendorPortal_AutomationTest": ".\\node_modules\\.bin\\cucumber-js VendorPortal_AutomationTest/features --format=json:VendorPortal_AutomationTest/cucumber_reports/cucumber_report.json && node VendorPortal_AutomationTest/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.3.0",
     "selenium-webdriver": "^4.0.0-alpha.8"
   },
   "dependencies": {}

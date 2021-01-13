@@ -1,0 +1,84 @@
+[
+  {
+    "description": "  Register student on registration page",
+    "elements": [
+      {
+        "description": "",
+        "id": "registering-student-online;already-registered-student-id",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Already registered student ID",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in student registration page",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter registered student ID",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click Register Button",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see message \"This student is already registered!\"",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registering-student-online",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registering Student Online",
+    "tags": [],
+    "uri": "VendorPortal_AutomationTest\\features\\test.feature"
+  }
+]
