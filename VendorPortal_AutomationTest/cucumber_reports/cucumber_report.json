@@ -4,81 +4,207 @@
     "elements": [
       {
         "description": "",
-        "id": "registering-student-online;already-registered-student-id",
+        "id": "test-scenario1-(ts_002)--vendor-สร้างการนัดหมาย;test-case1-(tc_1)vendor-สร้างการนัดหมาย",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "Already registered student ID",
+        "line": 10,
+        "name": "Test Case1 (TC_1)Vendor สร้างการนัดหมาย",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5965000000
+              "duration": 6115000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I am in student registration page",
+            "name": "login by user is \"panarat.cha@dohome.co.th\" and password is \"Panarat01*\"",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:12"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 195000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "I enter registered student ID",
+            "name": "user click on login button",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:19"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:19"
             },
             "result": {
               "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user is on homepage",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user click on create appointment button",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user is on createappointment page",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "user input topic as \"อื่นๆ\"",
+            "match": {
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:40"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1104000000,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"dx-ce311756-dddf-9971-682a-7b0b7aff5b54\"]//div[@role=\"option\"]/div[contains(text(),อื่นๆ)]\"}\n  (Session info: chrome=87.0.4280.88)\n    at Object.throwDecodedError (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\error.js:517:15)\n    at parseHttpResponse (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\http.js:655:13)\n    at Executor.execute (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\http.js:581:28)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:724:17)\n    at async toWireValue (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:132:15)\n    at async C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:182:16\n    at async forEachKey (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:176:9)\n    at async convertKeys (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:181:3)\n    at async thenableWebDriverProxy.execute (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:722:22)\n    at async World.<anonymous> (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:44:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user input date as \"15/12/2021\"",
+            "result": {
+              "status": "undefined",
               "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "click Register Button",
-            "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:30"
-            },
+            "line": 15,
+            "name": "user input time as \"บ่าย\"",
             "result": {
-              "status": "passed",
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user input detail as \"test by automation test\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user input type of product as \"กลุ่มสินค้าท่อPVC\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user input dealer as \"ผู้ผลิต\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user add file by \"file_for_test/test1.jpg\" path",
+            "result": {
+              "status": "undefined",
               "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "I should see message \"This student is already registered!\"",
-            "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\test.js:34"
-            },
+            "line": 20,
+            "name": "user click appointment button",
             "result": {
-              "status": "passed",
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user click save button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "user click accept",
+            "result": {
+              "status": "undefined",
               "duration": 0
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@TC_1,",
+            "line": 9
+          },
+          {
+            "name": "@TS_002",
+            "line": 9
+          }
+        ],
         "type": "scenario"
       }
     ],
-    "id": "registering-student-online",
+    "id": "test-scenario1-(ts_002)--vendor-สร้างการนัดหมาย",
     "line": 1,
     "keyword": "Feature",
-    "name": "Registering Student Online",
+    "name": "Test Scenario1 (TS_002)  Vendor สร้างการนัดหมาย",
     "tags": [],
-    "uri": "VendorPortal_AutomationTest\\features\\test.feature"
+    "uri": "VendorPortal_AutomationTest\\features\\(TC_1)Vendor_สร้างการนัดหมาย.feature"
   }
 ]
