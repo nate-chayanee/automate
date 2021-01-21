@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6115000000
+              "duration": 7832000000
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "login by user is \"panarat.cha@dohome.co.th\" and password is \"Panarat01*\"",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:12"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 195000000
+              "duration": 1000000
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 6,
             "name": "user click on login button",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:19"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 1000000
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 7,
             "name": "user is on homepage",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:23"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 1630000000
+              "duration": 1595000000
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 11,
             "name": "user click on create appointment button",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:30"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:39"
             },
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 0
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 12,
             "name": "user is on createappointment page",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:34"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 598000000
+              "duration": 486000000
             }
           },
           {
@@ -88,12 +88,11 @@
             "line": 13,
             "name": "user input topic as \"อื่นๆ\"",
             "match": {
-              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:40"
+              "location": "VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:49"
             },
             "result": {
-              "status": "failed",
-              "duration": 1104000000,
-              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"dx-ce311756-dddf-9971-682a-7b0b7aff5b54\"]//div[@role=\"option\"]/div[contains(text(),อื่นๆ)]\"}\n  (Session info: chrome=87.0.4280.88)\n    at Object.throwDecodedError (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\error.js:517:15)\n    at parseHttpResponse (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\http.js:655:13)\n    at Executor.execute (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\http.js:581:28)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:724:17)\n    at async toWireValue (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:132:15)\n    at async C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:182:16\n    at async forEachKey (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:176:9)\n    at async convertKeys (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:181:3)\n    at async thenableWebDriverProxy.execute (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:722:22)\n    at async World.<anonymous> (C:\\Users\\Chayanee.jun\\Documents\\AutomationTest\\VendorPortal_AutomationTest\\features\\stepdef\\Vendor.js:44:5)"
+              "status": "passed",
+              "duration": 0
             }
           },
           {
